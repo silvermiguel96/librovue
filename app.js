@@ -1,3 +1,4 @@
+// test
 Vue.component('game-list', {
   props: ['games'],
   template: [
@@ -49,6 +50,7 @@ const app = new Vue ({
   data: {
     games: [
       { title: 'Dios de la guerra'},
+      { title: 'GTA4'},
       { title: 'GTA5'},
       { title: 'Call Of Duty'}
     ]
